@@ -1,6 +1,6 @@
 def average(array):
-    uniqueArray = set(array)
-    return sum(uniqueArray)/len(uniqueArray)
+    unique_array = set(array)
+    return sum(unique_array)/len(unique_array)
 
 if __name__ == '__main__':
     n = int(input())
